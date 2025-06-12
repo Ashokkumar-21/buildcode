@@ -1,2 +1,2 @@
 #!/bin/bash
-node /var/www/html/app/app.js &
+node /var/www/html/views/index.ejs &
