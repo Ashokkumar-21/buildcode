@@ -39,6 +39,6 @@ app.get('/', (req, res) => {
   });
 });
 
-app.listen(port, () => {
-  console.log(`Portfolio running at http://localhost:${port}`);
+app.listen(port, '0.0.0.0', () => {
+  console.log(`Portfolio running at http://0.0.0.0:${port}`);
 });
