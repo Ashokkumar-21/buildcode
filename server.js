@@ -12,7 +12,7 @@ app.set('views', path.join(__dirname));
 
 app.get('/', (req, res) => {
   res.render('index', {
-    name: "Ashokkumar S",
+    name: "ASHOKKUMAR S",
     title: "No-Nonsense Tech Guy",
     summary: "A hands-on tech professional with deep skills in infrastructure, scripting, automation, and issue resolution. Known for getting things done — without fluff.",
     strengths: [
@@ -33,7 +33,7 @@ app.get('/', (req, res) => {
       { name: "Excel to Access Migration", desc: "Migrated large Excel datasets to a collaborative Access DB" }
     ],
     contact: {
-      email: "you@example.com",
+      email: "ashoksulthan21@gmail.com",
       location: "India"
     }
   });
